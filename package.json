@@ -1,0 +1,33 @@
+{
+  "name": "salt-winter19-hackdayw09",
+  "version": "1.0.0",
+  "description": "subway delay info from SL APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config jest.config.json --silent",
+    "pretest": "npm run lint",
+    "lint": "eslint '**/*.js'",
+    "watch": "nodemon '**/*.js' -- npm run test",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saltsthlm/salt-winter19-hackdayW09.git"
+  },
+  "author": "erkus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saltsthlm/salt-winter19-hackdayW09/issues"
+  },
+  "homepage": "https://github.com/saltsthlm/salt-winter19-hackdayW09#readme",
+  "devDependencies": {
+    "eslint": "^5.15.1",
+    "jest": "^24.5.0"
+  },
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "node-fetch": "^2.3.0",
+    "serve-favicon": "^2.5.0"
+  }
+}
